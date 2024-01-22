@@ -1,0 +1,193 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Hanken-Grotesk;
+}
+
+@font-face {
+    font-family: Hanken-Grotesk;
+    src: url("./fonts/HankenGrotesk-VariableFont_wght.ttf");
+}
+
+
+#principal {
+    padding: 0px 20px;
+}
+
+#info {
+    border-radius: 20px;
+    max-width: 470px;
+    max-height: 100%;
+    margin: 100px auto;
+    display: flex;
+    box-shadow: 5px 5px 25px #F3F6FF;
+}
+
+
+#your-result {
+    width: 240px;
+    overflow: hidden;
+    background: linear-gradient(#6642FE, #593CF8, #4433F1, #312CEA);
+    padding: 25px 35px 15px 35px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#your-result #title {
+    color: #CFC8FF;
+}
+
+#result-number {
+    border-radius: 100%;
+    border: none;
+    padding: 50px 40px 50px 40px;
+    height: 125px;
+    background: linear-gradient(#4827D0, #452CDF, #4533EB, #4635F3);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#result-number h1 {
+    font-size: 30pt;
+    color: #FCFDF9;
+}
+
+#result-number p {
+    color: #8679FE;
+}
+
+#your-result #result-description {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    text-align: center;
+}
+
+#your-result #result-description h3 {
+    color: #FFFFFD;
+}
+
+#your-result #result-description p {
+    font-size: 9pt;
+    color: #BDBCFE;
+}
+
+
+#summary {
+    width: 240px;
+    overflow: hidden;
+    background-color: #FFF;
+    border-radius: 0px 20px 20px 0px;
+    padding: 25px 25px 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+#summary h4 {
+    margin-bottom: 20px;
+
+}
+
+#summary .status {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+}
+
+#summary .status img {
+    width: 15px;
+    height: 15px;
+}
+
+#summary .status p {
+    font-weight: 800;
+
+}
+
+
+#summary .summary-data {
+    display: flex;
+    justify-content: space-between;
+    max-width: 200px;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    gap: 15px;
+    font-size: 9pt;
+}
+
+#summary #reaction {
+
+    background-color: #FFF6F5;
+}
+
+#summary #reaction p {
+
+    color: #E67074;
+}
+
+#summary #memory {
+
+    background-color: #FFFBF2;
+}
+
+#summary #memory p {
+
+    color: #F7BC47;
+}
+
+#summary #verbal {
+
+    background-color: #F2FBFA;
+}
+
+#summary #verbal p {
+
+    color: #2AB08F;
+}
+
+#summary #visual {
+
+    background-color: #F3F3FD;
+}
+
+#summary #visual p {
+
+    color: #2A35A5;
+}
+
+#summary button {
+    margin-top: 20px;
+    background-color: #303B59;
+    padding: 10px;
+    max-width: 200px;
+    color: #FFF;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    transition: all linear 0.2s;
+}
+
+#summary button:hover {
+    background-color: #4B36F3;
+}
+
+
+@media(max-width: 500px) {
+
+    #info {
+        flex-wrap: wrap;
+        max-width: 240px;
+    }
+
+    #summary {
+        border-radius: 0px 0px 20px 20px;
+    }
+
+}
