@@ -39,6 +39,7 @@
 
 #your-result #title {
     color: #CFC8FF;
+    font-size: 11pt;
 }
 
 #result-number {
@@ -70,6 +71,7 @@
 
 #your-result #result-description h3 {
     color: #FFFFFD;
+    font-weight: 500;
 }
 
 #your-result #result-description p {
@@ -90,6 +92,7 @@
 
 #summary h4 {
     margin-bottom: 20px;
+    font-size: 11pt;
 
 }
 
@@ -101,12 +104,12 @@
 }
 
 #summary .status img {
-    width: 15px;
-    height: 15px;
+    width: 14px;
+    height: 14px;
 }
 
 #summary .status p {
-    font-weight: 800;
+    font-weight: 700;
 
 }
 
@@ -120,6 +123,11 @@
     margin-bottom: 10px;
     gap: 15px;
     font-size: 9pt;
+}
+
+#summary .data-result{
+    color: #8E979F;
+    font-weight: 700;
 }
 
 #summary #reaction {
@@ -149,7 +157,7 @@
 
 #summary #verbal p {
 
-    color: #2AB08F;
+    color: #29c7a0;
 }
 
 #summary #visual {
