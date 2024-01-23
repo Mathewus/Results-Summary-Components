@@ -45,11 +45,12 @@
 #result-number {
     border-radius: 100%;
     border: none;
-    padding: 50px 40px 50px 40px;
+    width: 125px;
     height: 125px;
     background: linear-gradient(#4827D0, #452CDF, #4533EB, #4635F3);
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-direction: column;
 }
 
