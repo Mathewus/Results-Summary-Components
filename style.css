@@ -19,9 +19,10 @@
     border-radius: 20px;
     max-width: 470px;
     max-height: 100%;
-    margin: 100px auto;
+    margin: 140px auto;
     display: flex;
-    box-shadow: 5px 5px 25px #F3F6FF;
+    box-shadow: 20px 20px 25px #d6d9e0;
+    transform: scale(110%);
 }
 
 
@@ -196,6 +197,7 @@
     #info {
         flex-wrap: wrap;
         max-width: 240px;
+        padding-bottom: 1rem;
     }
 
     #summary {
